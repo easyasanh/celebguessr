@@ -16,10 +16,11 @@ const PEOPLE = [
       "Albums include 1989 and Red",
       "Eras Tour headliner"
     ],
-    imagePath: "Taylor Swift at the 2023 MTV Video Music Awards (1).png",
+    imagePath: "Taylor Swift at the 2024 Golden Globes (2).png",
     imageSourcePage:
-      "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(1).png",
-    imageCredit: "iHeartRadioCA via Wikimedia Commons (CC BY 3.0)",
+      "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2024_Golden_Globes_(2).png",
+    imageCredit: "Wikimedia Commons source file",
+    imagePosition: "center 18%",
     palette: {
       background: ["#efe0c4", "#d3b38d"],
       shirt: "#4b6387",
@@ -68,9 +69,10 @@ const PEOPLE = [
       "Also known for Dune and Spider-Man",
       "Uses a single-word stage name"
     ],
-    imagePath: "Zendaya 2018.png",
-    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Zendaya_2018.png",
-    imageCredit: "MTV UK via Wikimedia Commons (CC BY 3.0)",
+    imagePath: "Zendaya 2024.jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Zendaya_2024.jpg",
+    imageCredit: "ManoSolo13241324 via Wikimedia Commons (CC0)",
+    imagePosition: "center 18%",
     palette: {
       background: ["#f0d6d1", "#b96f73"],
       shirt: "#7a564b",
@@ -93,9 +95,11 @@ const PEOPLE = [
       "Won the 2022 World Cup",
       "Now plays in Miami"
     ],
-    imagePath: "MESSI (19122916621).jpg",
-    imageSourcePage: "https://commons.wikimedia.org/wiki/File:MESSI_(19122916621).jpg",
-    imageCredit: "Thomas Rodenbücher via Wikimedia Commons (CC BY 2.0)",
+    imagePath: "Messi warming up - ARG v CAN - 2024-07-09.jpg",
+    imageSourcePage:
+      "https://commons.wikimedia.org/wiki/File:Messi_warming_up_-_ARG_v_CAN_-_2024-07-09.jpg",
+    imageCredit: "Sebas via Wikimedia Commons (CC BY 3.0)",
+    imagePosition: "center 20%",
     palette: {
       background: ["#e5d9c2", "#c9a572"],
       shirt: "#f2a63b",
@@ -193,9 +197,11 @@ const PEOPLE = [
       "Canadian-born star with a devoted internet fanbase",
       "Often associated with motorcycles and a very calm public image"
     ],
-    imagePath: "Keanu.jpg",
-    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Keanu.jpg",
-    imageCredit: "ewanjudecolinchristian via Wikimedia Commons (CC BY 2.0)",
+    imagePath: "Keanu Reeves SDCC 2024 10 (cropped).jpg",
+    imageSourcePage:
+      "https://commons.wikimedia.org/wiki/File:Keanu_Reeves_SDCC_2024_10_(cropped).jpg",
+    imageCredit: "Chris Roth via Wikimedia Commons (CC BY 2.0)",
+    imagePosition: "center 18%",
     palette: {
       background: ["#d8dee8", "#6b7b95"],
       shirt: "#1d1f27",
@@ -243,9 +249,14 @@ const PEOPLE = [
       "Songs include Levitating and Houdini",
       "British-Albanian pop star"
     ],
-    imagePath: "Dua Lipa.jpg",
-    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Dua_Lipa.jpg",
-    imageCredit: "Warner Music New Zealand via Wikimedia Commons (CC BY)",
+    imagePath: "Dua Lipa Nîmes 2024-1.jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Dua_Lipa_N%C3%AEmes_2024-1.jpg",
+    imageCredit: "Punx via Wikimedia Commons (CC0)",
+    imagePosition: "center 14%",
+    imagePath: "Simone Biles National Team 2024.jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Simone_Biles_National_Team_2024.jpg",
+    imageCredit: "Ocoudis via Wikimedia Commons (CC BY-SA 4.0)",
+    imagePosition: "center 18%",
     palette: {
       background: ["#dedaf0", "#8477be"],
       shirt: "#342c52",
@@ -293,6 +304,7 @@ const PEOPLE = [
     imagePath: "Timothée Chalamet 2026.jpg",
     imageSourcePage: "https://commons.wikimedia.org/wiki/File:Timoth%C3%A9e_Chalamet_2026.jpg",
     imageCredit: "ManoSolo13241324 via Wikimedia Commons (CC0)",
+    imagePosition: "center 15%",
     palette: {
       background: ["#d7e0d0", "#8fa27e"],
       shirt: "#744f33",
@@ -412,9 +424,11 @@ const PEOPLE = [
       "Became the NBA's all-time leading scorer",
       "Often called King James"
     ],
-    imagePath: "Lebron james.jpg",
-    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Lebron_james.jpg",
-    imageCredit: "Keith Allison via Wikimedia Commons (CC BY-SA 2.0)",
+    imagePath: "LeBron James, Olympic Games 2024 (cropped).jpg",
+    imageSourcePage:
+      "https://commons.wikimedia.org/wiki/File:LeBron_James,_Olympic_Games_2024_(cropped).jpg",
+    imageCredit: "Clément Bardot via Wikimedia Commons (CC BY-SA 4.0)",
+    imagePosition: "center 16%",
     palette: {
       background: ["#e6d9bd", "#9f7d43"],
       shirt: "#7f4b22",
@@ -437,6 +451,11 @@ const PEOPLE = [
       "Frequently collaborates with her brother Finneas",
       "Won Oscars for Bond and Barbie songs"
     ],
+    imagePath: "Billie Eilish performing in Inglewood (Dec 2024).png",
+    imageSourcePage:
+      "https://commons.wikimedia.org/wiki/File:Billie_Eilish_performing_in_Inglewood_(Dec_2024).png",
+    imageCredit: "Wikimedia Commons source file",
+    imagePosition: "center 20%",
     palette: {
       background: ["#d8e2c5", "#85954f"],
       shirt: "#2f4731",
@@ -448,7 +467,20 @@ const PEOPLE = [
   })
 ];
 
-const PLAYABLE_PEOPLE = PEOPLE.filter((person) => person.imagePath);
+const PLAYABLE_PEOPLE = PEOPLE.filter((person) =>
+  [
+    "taylor-swift",
+    "zendaya",
+    "lionel-messi",
+    "keanu-reeves",
+    "emma-stone",
+    "dua-lipa",
+    "simone-biles",
+    "timothee-chalamet",
+    "lebron-james",
+    "billie-eilish"
+  ].includes(person.id)
+);
 
 const state = loadState();
 const root = document.querySelector("#view-root");
@@ -484,7 +516,8 @@ function createPerson({
   palette,
   imagePath,
   imageSourcePage,
-  imageCredit
+  imageCredit,
+  imagePosition
 }) {
   return {
     id,
@@ -498,6 +531,7 @@ function createPerson({
     imagePath,
     imageSourcePage,
     imageCredit,
+    imagePosition,
     portrait: imagePath
       ? `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(imagePath)}`
       : makePortraitDataUrl({ name, category, palette })
@@ -667,7 +701,11 @@ function renderSession() {
       <div class="play-grid">
         <article class="reveal-card">
           <div class="portrait-stage" data-stage="${Math.min(revealIndex, 3)}">
-            <img src="${person.portrait}" alt="Celebrity photo clue for the current round" />
+            <img
+              src="${person.portrait}"
+              alt="Celebrity photo clue for the current round"
+              style="--portrait-position:${person.imagePosition || "center top"}"
+            />
           </div>
           <div class="reveal-body">
             <p class="reveal-label">Reveal ${revealIndex}</p>
@@ -1249,9 +1287,9 @@ function buildDailyTeaser(holes) {
 function getRevealCopy(person, revealIndex) {
   if (revealIndex <= 3) {
     return [
-      "A sliver of the portrait is open. Trust first instincts sparingly.",
-      "The crop widens. A hairline, posture, or palette might be enough.",
-      "You can finally read the full silhouette. Decide if that is enough."
+      "A small centered portrait window is open. If you know the face, this is the moment to steal a stroke.",
+      "The head-and-shoulders crop grows. Hair, jawline, and styling should start to narrow it fast.",
+      "Most of the portrait is visible now. If the face still is not enough, the text clues take over next."
     ][revealIndex - 1];
   }
 

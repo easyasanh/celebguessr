@@ -395,9 +395,7 @@ button:hover {
   overflow: hidden;
   border-radius: 22px;
   border: 1px solid rgba(24, 35, 18, 0.08);
-  background:
-    radial-gradient(circle at top left, rgba(255, 255, 255, 0.22), transparent 18%),
-    linear-gradient(180deg, #f7edd6, #d9c9a5);
+  background: #111;
 }
 
 .portrait-stage img {
@@ -405,33 +403,34 @@ button:hover {
   height: 100%;
   object-fit: cover;
   display: block;
+  object-position: var(--portrait-position, center top);
+  clip-path: inset(var(--portrait-inset, 0 0 0 0) round 20px);
+  transition:
+    clip-path 220ms ease,
+    filter 220ms ease,
+    transform 220ms ease;
 }
 
 .portrait-stage::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: var(--overlay, transparent);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 28%),
+    linear-gradient(180deg, transparent 72%, rgba(0, 0, 0, 0.2));
   pointer-events: none;
-  transition: background 240ms ease;
 }
 
 .portrait-stage[data-stage="1"] {
-  --overlay:
-    linear-gradient(90deg, rgba(0, 0, 0, 0.74) 0 40%, transparent 40% 60%, rgba(0, 0, 0, 0.74) 60% 100%),
-    linear-gradient(180deg, rgba(0, 0, 0, 0.74) 0 42%, transparent 42% 58%, rgba(0, 0, 0, 0.74) 58% 100%);
+  --portrait-inset: 34% 34% 40% 34%;
 }
 
 .portrait-stage[data-stage="2"] {
-  --overlay:
-    linear-gradient(90deg, rgba(0, 0, 0, 0.58) 0 28%, transparent 28% 72%, rgba(0, 0, 0, 0.58) 72% 100%),
-    linear-gradient(180deg, rgba(0, 0, 0, 0.58) 0 30%, transparent 30% 70%, rgba(0, 0, 0, 0.58) 70% 100%);
+  --portrait-inset: 21% 22% 24% 22%;
 }
 
 .portrait-stage[data-stage="3"] {
-  --overlay:
-    linear-gradient(180deg, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.22)),
-    radial-gradient(circle at center, transparent 0 42%, rgba(0, 0, 0, 0.28) 42% 100%);
+  --portrait-inset: 10% 12% 11% 12%;
 }
 
 .reveal-body {
