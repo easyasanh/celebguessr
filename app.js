@@ -16,6 +16,10 @@ const PEOPLE = [
       "Albums include 1989 and Red",
       "Eras Tour headliner"
     ],
+    imagePath: "Taylor Swift at the 2023 MTV Video Music Awards (1).png",
+    imageSourcePage:
+      "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(1).png",
+    imageCredit: "iHeartRadioCA via Wikimedia Commons (CC BY 3.0)",
     palette: {
       background: ["#efe0c4", "#d3b38d"],
       shirt: "#4b6387",
@@ -38,6 +42,10 @@ const PEOPLE = [
       "Succeeded George W. Bush",
       "Author of A Promised Land"
     ],
+    imagePath: "Barack Obama in his Oval Office, Feb. 2009.jpg",
+    imageSourcePage:
+      "https://commons.wikimedia.org/wiki/File:Barack_Obama_in_his_Oval_Office,_Feb._2009.jpg",
+    imageCredit: "The White House via Wikimedia Commons",
     palette: {
       background: ["#d9e4ea", "#8aa5b7"],
       shirt: "#1f3556",
@@ -60,6 +68,9 @@ const PEOPLE = [
       "Also known for Dune and Spider-Man",
       "Uses a single-word stage name"
     ],
+    imagePath: "Zendaya 2018.png",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Zendaya_2018.png",
+    imageCredit: "MTV UK via Wikimedia Commons (CC BY 3.0)",
     palette: {
       background: ["#f0d6d1", "#b96f73"],
       shirt: "#7a564b",
@@ -82,6 +93,9 @@ const PEOPLE = [
       "Won the 2022 World Cup",
       "Now plays in Miami"
     ],
+    imagePath: "MESSI (19122916621).jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:MESSI_(19122916621).jpg",
+    imageCredit: "Thomas Rodenbücher via Wikimedia Commons (CC BY 2.0)",
     palette: {
       background: ["#e5d9c2", "#c9a572"],
       shirt: "#f2a63b",
@@ -104,6 +118,9 @@ const PEOPLE = [
       "Known for Rolling in the Deep and Hello",
       "Las Vegas residency headliner"
     ],
+    imagePath: "Adele.jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Adele.jpg",
+    imageCredit: "Mpawsey via Wikimedia Commons (CC BY-SA)",
     palette: {
       background: ["#e7d5b8", "#b69067"],
       shirt: "#2b2b37",
@@ -126,6 +143,9 @@ const PEOPLE = [
       "Played Ken in Barbie",
       "Canadian star with Oscar nominations"
     ],
+    imagePath: "Ryan Gosling (36034948582).jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Ryan_Gosling_(36034948582).jpg",
+    imageCredit: "Gage Skidmore via Wikimedia Commons (CC BY-SA 2.0)",
     palette: {
       background: ["#e6d4c1", "#b99c83"],
       shirt: "#78453f",
@@ -148,6 +168,9 @@ const PEOPLE = [
       "Released Renaissance and Cowboy Carter",
       "Often called Queen Bey"
     ],
+    imagePath: "Beyonce.jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Beyonce.jpg",
+    imageCredit: "Jen Keys via Wikimedia Commons (public domain)",
     palette: {
       background: ["#f1d8b8", "#bf8a3d"],
       shirt: "#b95c2e",
@@ -170,6 +193,9 @@ const PEOPLE = [
       "Canadian-born star with a devoted internet fanbase",
       "Often associated with motorcycles and a very calm public image"
     ],
+    imagePath: "Keanu.jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Keanu.jpg",
+    imageCredit: "ewanjudecolinchristian via Wikimedia Commons (CC BY 2.0)",
     palette: {
       background: ["#d8dee8", "#6b7b95"],
       shirt: "#1d1f27",
@@ -192,6 +218,9 @@ const PEOPLE = [
       "Often recognized for distinctive red hair",
       "Won Oscars in 2017 and 2024"
     ],
+    imagePath: "Emma Stone.jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Emma_Stone.jpg",
+    imageCredit: "Raph_PH via Wikimedia Commons (CC BY 4.0)",
     palette: {
       background: ["#ecd5ca", "#d58e6b"],
       shirt: "#254c3c",
@@ -214,6 +243,9 @@ const PEOPLE = [
       "Songs include Levitating and Houdini",
       "British-Albanian pop star"
     ],
+    imagePath: "Dua Lipa.jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Dua_Lipa.jpg",
+    imageCredit: "Warner Music New Zealand via Wikimedia Commons (CC BY)",
     palette: {
       background: ["#dedaf0", "#8477be"],
       shirt: "#342c52",
@@ -258,6 +290,9 @@ const PEOPLE = [
       "Played Willy Wonka in a 2023 musical fantasy",
       "French-American star with a famously tousled look"
     ],
+    imagePath: "Timothée Chalamet 2026.jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Timoth%C3%A9e_Chalamet_2026.jpg",
+    imageCredit: "ManoSolo13241324 via Wikimedia Commons (CC0)",
     palette: {
       background: ["#d7e0d0", "#8fa27e"],
       shirt: "#744f33",
@@ -280,6 +315,9 @@ const PEOPLE = [
       "Known for Umbrella, Diamonds, and Work",
       "Headlined the Super Bowl halftime show in 2023"
     ],
+    imagePath: "Rihanna (6777125510).jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Rihanna_(6777125510).jpg",
+    imageCredit: "Eva Rinaldi via Wikimedia Commons (CC BY-SA 2.0)",
     palette: {
       background: ["#eed4d7", "#be6a7b"],
       shirt: "#8b2330",
@@ -302,6 +340,9 @@ const PEOPLE = [
       "Chilean-born star with a major TV presence",
       "Plays Joel and a helmeted bounty hunter"
     ],
+    imagePath: "Pedro Pascal (36082097846).jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Pedro_Pascal_(36082097846).jpg",
+    imageCredit: "Gage Skidmore via Wikimedia Commons (CC BY-SA 2.0)",
     palette: {
       background: ["#e8d7be", "#b18b5d"],
       shirt: "#405970",
@@ -324,6 +365,9 @@ const PEOPLE = [
       "Shared a famous sibling rivalry on tour",
       "One of the sport’s most dominant servers"
     ],
+    imagePath: "Serena Williams .jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Serena_Williams_.jpg",
+    imageCredit: "Hanson K Joseph via Wikimedia Commons (CC BY-SA)",
     palette: {
       background: ["#f3dfcc", "#c88755"],
       shirt: "#98522f",
@@ -368,6 +412,9 @@ const PEOPLE = [
       "Became the NBA's all-time leading scorer",
       "Often called King James"
     ],
+    imagePath: "Lebron james.jpg",
+    imageSourcePage: "https://commons.wikimedia.org/wiki/File:Lebron_james.jpg",
+    imageCredit: "Keith Allison via Wikimedia Commons (CC BY-SA 2.0)",
     palette: {
       background: ["#e6d9bd", "#9f7d43"],
       shirt: "#7f4b22",
@@ -401,6 +448,8 @@ const PEOPLE = [
   })
 ];
 
+const PLAYABLE_PEOPLE = PEOPLE.filter((person) => person.imagePath);
+
 const state = loadState();
 const root = document.querySelector("#view-root");
 const modal = document.querySelector("#modal");
@@ -424,7 +473,19 @@ modal.addEventListener("click", (event) => {
 hydrateDailyProgress();
 render();
 
-function createPerson({ id, name, aliases, category, teaser, difficulty, clues, palette }) {
+function createPerson({
+  id,
+  name,
+  aliases,
+  category,
+  teaser,
+  difficulty,
+  clues,
+  palette,
+  imagePath,
+  imageSourcePage,
+  imageCredit
+}) {
   return {
     id,
     name,
@@ -434,7 +495,12 @@ function createPerson({ id, name, aliases, category, teaser, difficulty, clues, 
     difficulty,
     clues,
     palette,
-    portrait: makePortraitDataUrl({ name, category, palette })
+    imagePath,
+    imageSourcePage,
+    imageCredit,
+    portrait: imagePath
+      ? `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(imagePath)}`
+      : makePortraitDataUrl({ name, category, palette })
   };
 }
 
@@ -491,7 +557,7 @@ function getTodayKey() {
 
 function getDailyCourse() {
   const key = getTodayKey();
-  const seeded = seededShuffle([...PEOPLE], stringToSeed(key));
+  const seeded = seededShuffle([...PLAYABLE_PEOPLE], stringToSeed(key));
   return {
     id: key.replaceAll("-", ""),
     key,
@@ -601,7 +667,7 @@ function renderSession() {
       <div class="play-grid">
         <article class="reveal-card">
           <div class="portrait-stage" data-stage="${Math.min(revealIndex, 3)}">
-            <img src="${person.portrait}" alt="Stylized portrait clue for the current celebrity" />
+            <img src="${person.portrait}" alt="Celebrity photo clue for the current round" />
           </div>
           <div class="reveal-body">
             <p class="reveal-label">Reveal ${revealIndex}</p>
@@ -862,6 +928,30 @@ function openHelp() {
   modal.showModal();
 }
 
+function openCredits() {
+  modalContent.innerHTML = `
+    <div class="modal-card">
+      <h1>Photo Credits</h1>
+      <p>The real face photos in this version are loaded from Wikimedia Commons file pages with reusable licenses or public-domain status.</p>
+      <div class="credit-list">
+        ${PLAYABLE_PEOPLE.map(
+          (person) => `
+            <div class="credit-item">
+              <strong>${person.name}</strong>
+              <span>${person.imageCredit}</span><br />
+              <a href="${person.imageSourcePage}" target="_blank" rel="noreferrer">View source file</a>
+            </div>
+          `
+        ).join("")}
+      </div>
+      <div class="results-actions">
+        <button class="primary-button" data-action="close-modal">Close</button>
+      </div>
+    </div>
+  `;
+  modal.showModal();
+}
+
 function startSession(mode) {
   let holes;
   let label;
@@ -902,7 +992,7 @@ function startSession(mode) {
 
 function buildUnlimitedCourse() {
   const { unlimitedCategory, unlimitedDifficulty, unlimitedLength } = state.preferences;
-  let pool = [...PEOPLE];
+  let pool = [...PLAYABLE_PEOPLE];
 
   if (unlimitedDifficulty !== "standard") {
     pool = pool.filter((person) => person.difficulty === unlimitedDifficulty);
@@ -919,7 +1009,7 @@ function buildUnlimitedCourse() {
   }
 
   if (pool.length < unlimitedLength) {
-    pool = [...PEOPLE];
+    pool = [...PLAYABLE_PEOPLE];
   }
 
   return seededShuffle(pool, stringToSeed(`${Date.now()}-${Math.random()}`)).slice(0, unlimitedLength);
@@ -951,6 +1041,11 @@ function handleClick(event) {
 
   if (action === "open-help") {
     openHelp();
+    return;
+  }
+
+  if (action === "open-credits") {
+    openCredits();
     return;
   }
 
@@ -1164,7 +1259,9 @@ function getRevealCopy(person, revealIndex) {
 }
 
 function buildAnswerMeta(person) {
-  return `Accepted answers include common aliases and close spellings for ${person.category.toLowerCase()} clues.`;
+  return person.imageCredit
+    ? `Accepted answers include common aliases and close spellings. Photo credit: ${person.imageCredit}.`
+    : `Accepted answers include common aliases and close spellings for ${person.category.toLowerCase()} clues.`;
 }
 
 function matchesPerson(input, person) {

@@ -624,6 +624,33 @@ button:hover {
   color: var(--muted);
 }
 
+.credit-list {
+  display: grid;
+  gap: 12px;
+  margin: 18px 0 22px;
+}
+
+.credit-item {
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--line);
+}
+
+.credit-item strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.credit-item span,
+.credit-item a {
+  color: var(--muted);
+}
+
+.credit-item a {
+  text-decoration: underline;
+}
+
 .stats-chart {
   display: grid;
   gap: 10px;
